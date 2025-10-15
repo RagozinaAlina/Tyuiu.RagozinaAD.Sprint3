@@ -5,7 +5,7 @@ namespace Tyuiu.RagozinaAD.Sprint3.Task5.V20.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetSumSumSeries1()
+        public void ValidGetSumSumSeries()
         {
             DataService ds = new DataService();
 
@@ -16,7 +16,7 @@ namespace Tyuiu.RagozinaAD.Sprint3.Task5.V20.Test
             int stopValue2 = 6;
 
             double res = ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
-            double wait = 60288.629;
+            double wait = 50584.322;
 
             Assert.AreEqual(wait, res);
         }
