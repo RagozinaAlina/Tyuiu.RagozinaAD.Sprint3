@@ -16,7 +16,7 @@ namespace Tyuiu.RagozinaAD.Sprint3.Task5.V20.Test
             int stopValue2 = 6;
 
             double res = ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
-            double wait = 0;
+            double wait = 60288.629;
 
             Assert.AreEqual(wait, res);
         }
