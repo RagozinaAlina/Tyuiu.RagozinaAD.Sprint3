@@ -22,7 +22,7 @@ namespace Tyuiu.RagozinaAD.Sprint3.Task7.V28.Test
             valueWaitArray[2] = -4.76;
             valueWaitArray[3] = -6.47;
             valueWaitArray[4] = -2.98;
-            valueWaitArray[5] = 0.00;
+            valueWaitArray[5] = 1.00;
             valueWaitArray[6] = 1.82;
             valueWaitArray[7] = 3.55;
             valueWaitArray[8] = 6.99;
